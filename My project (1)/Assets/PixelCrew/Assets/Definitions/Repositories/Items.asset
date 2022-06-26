@@ -21,16 +21,16 @@ MonoBehaviour:
     _tags: 010000000000000002000000
   - _id: Key
     _icon: {fileID: 21300000, guid: 8eb4643618bbf9a409efb7b67015f705, type: 3}
-    _tags: 
+    _tags: 0000000001000000
   - _id: PearlProjectile
     _icon: {fileID: 21300000, guid: bb7ec49a121d3ce499c468ea8e97a8fb, type: 3}
     _tags: 010000000000000002000000
   - _id: SmallHealthPotion
     _icon: {fileID: 1397617854, guid: d85c95f77c21d594eb827b5bebd1cb2a, type: 3}
-    _tags: 0100000003000000
+    _tags: 010000000300000000000000
   - _id: LargeHealthPotion
     _icon: {fileID: -994121339, guid: d85c95f77c21d594eb827b5bebd1cb2a, type: 3}
-    _tags: 0100000003000000
+    _tags: 010000000300000000000000
   - _id: SpeedUpPotion
     _icon: {fileID: 761055823, guid: d85c95f77c21d594eb827b5bebd1cb2a, type: 3}
     _tags: 010000000300000000000000

@@ -65,11 +65,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1154435761588956810, guid: 3fdc247add16a354b8c5f0dfe67e1ec7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.68
+      value: 17.615
       objectReference: {fileID: 0}
     - target: {fileID: 1154435761588956810, guid: 3fdc247add16a354b8c5f0dfe67e1ec7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.93
+      value: -3.704
       objectReference: {fileID: 0}
     - target: {fileID: 1154435761588956810, guid: 3fdc247add16a354b8c5f0dfe67e1ec7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -81,15 +81,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1154435761588956810, guid: 3fdc247add16a354b8c5f0dfe67e1ec7, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1154435761588956810, guid: 3fdc247add16a354b8c5f0dfe67e1ec7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1154435761588956810, guid: 3fdc247add16a354b8c5f0dfe67e1ec7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1154435761588956810, guid: 3fdc247add16a354b8c5f0dfe67e1ec7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -105,12 +105,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1154435761588956813, guid: 3fdc247add16a354b8c5f0dfe67e1ec7, type: 3}
       propertyPath: m_Name
-      value: DestructableBarrel Variant
+      value: DestructableBarrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1154435761588956813, guid: 3fdc247add16a354b8c5f0dfe67e1ec7, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1154435761588956814, guid: 3fdc247add16a354b8c5f0dfe67e1ec7, type: 3}
       propertyPath: _health
-      value: 5
+      value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 1154435761588956815, guid: 3fdc247add16a354b8c5f0dfe67e1ec7, type: 3}
+      propertyPath: _state
+      value: 
+      objectReference: {fileID: 4289877347876168830}
     - target: {fileID: 1154435761588956820, guid: 3fdc247add16a354b8c5f0dfe67e1ec7, type: 3}
       propertyPath: m_Constraints
       value: 7
@@ -126,18 +134,36 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2989662903053015578, guid: 3fdc247add16a354b8c5f0dfe67e1ec7, type: 3}
   m_PrefabInstance: {fileID: 3138399316934282904}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 4289877349261254677}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd7007395463c18498d53227640d7001, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &4289877349261254677 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1154435761588956813, guid: 3fdc247add16a354b8c5f0dfe67e1ec7, type: 3}
+  m_PrefabInstance: {fileID: 3138399316934282904}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4289877347876168830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4289877349261254677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 843b6fe8e3cf18346b9571fd77e5eb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _id: destructable-barrel1
 --- !u!114 &4289877349261254679 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1154435761588956815, guid: 3fdc247add16a354b8c5f0dfe67e1ec7, type: 3}
   m_PrefabInstance: {fileID: 3138399316934282904}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 4289877349261254677}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: adbfd6a2e7d5022459650c584b8e78d9, type: 3}

@@ -43,7 +43,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Console
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 121}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 102
+  controlID: 85
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 85
+  controlID: 25
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 92
+  controlID: 131
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 93
+  controlID: 132
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -318,17 +318,17 @@ MonoBehaviour:
     y: 522
     width: 1415
     height: 425
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 21}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 21}
   - {fileID: 22}
   - {fileID: 23}
   - {fileID: 24}
   - {fileID: 25}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -752,9 +752,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 580.8338, y: 110.34537, z: -1.7091246}
+    m_Target: {x: 612.256, y: 116.35164, z: -2.2053707}
     speed: 2
-    m_Value: {x: 580.8338, y: 110.34537, z: -1.7091246}
+    m_Value: {x: 612.256, y: 116.35164, z: -2.2053707}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -805,9 +805,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 199.62045
+    m_Target: 238.0511
     speed: 2
-    m_Value: 199.62045
+    m_Value: 238.0511
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -2229,7 +2229,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SearchFilter:
-    m_NameFilter: hud
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -2241,13 +2241,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/PixelCrew/Assets/Prefabs
+    - Assets/PixelCrew/Scenes
     m_Globs: []
-    m_OriginalText: hud
+    m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 75
   m_LastFolders:
-  - Assets/PixelCrew/Assets/Prefabs
+  - Assets/PixelCrew/Scenes
   m_LastFoldersGridSize: 75
   m_LastProjectPath: "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Documents\\GitHub\\CrabbyCrew\\CrabbyCrew\\My
     project (1)"
@@ -2255,9 +2255,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fc780000
-    m_LastClickedID: 30972
-    m_ExpandedIDs: 00000000d6780000d8780000e678000000ca9a3b
+    m_SelectedIDs: aa7a0000
+    m_LastClickedID: 31402
+    m_ExpandedIDs: 00000000d6780000d8780000a27a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2310,8 +2310,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: f8f8ffff
+    m_LastClickedInstanceID: -1800
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300002c650000e46100003261000020620000ee780000e261000006620000cc610000feb40000ca6100007e63000040700000386e00007c630000006400006a710000926b0000fe80000050650000bc740000988f00000a8b0000407c0000867b000010720000f2730000a66f000076800000d06e0000647c0000c88a0000c07f00008e7a0000f28300002065000036650000487100000a970000166500001e650000f07e0000628d00002c800000fa6a0000ce8c00001690000050700000807b0000368a0000669d0000aa6b0000a66b0000a26b00009e6b0000ae6b0000a6660000ec7000008c6400008a6400008864000086640000dc720000ae650000fe6600009a780000a8810000a4930000968d0000da960000e28b0000466b0000189200001e6c0000b2960000546d0000c0680000329100008c7700008c6b0000e07800005ac00000ac870000bca800001a8b000094980000809900001873000096770000a839feff0000000064250100d8470100f0760000a8860000068a0000b07b00005c720000
     m_RenameOverlay:

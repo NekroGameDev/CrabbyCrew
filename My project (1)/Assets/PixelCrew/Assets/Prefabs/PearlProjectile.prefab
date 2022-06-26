@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 2
-  _inverX: 1
+  _invertX: 1
 --- !u!114 &4721686804663174278
 MonoBehaviour:
   m_ObjectHideFlags: 0

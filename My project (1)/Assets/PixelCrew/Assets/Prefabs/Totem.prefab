@@ -155,7 +155,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   _isTouchingLayer: 0
-  _collider: {fileID: 0}
 --- !u!1 &6424045752430727261
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,7 +461,6 @@ MonoBehaviour:
   _onChange:
     m_PersistentCalls:
       m_Calls: []
-  _immune: 0
 --- !u!114 &6424045752430727236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -523,3 +521,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 6424045752432962705}
   _prefab: {fileID: 615342426366030014, guid: 90f899a647c90584ab4fd1944f07ebb1, type: 3}
+  _usePool: 0
