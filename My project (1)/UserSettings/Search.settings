@@ -7,6 +7,9 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"last_search.8440E7BB" = "game"
+	"OpenInspectorPreview.8440E7BB" = "0"
+	"currentGroup.8440E7BB" = "all"
 }
 providers = {
 	adb = {
@@ -55,7 +58,7 @@ recentSearches = [
 searchItemFavorites = [
 ]
 savedSearchesSortOrder = 0
-showSavedSearchPanel = false
+showSavedSearchPanel = true
 expandedQueries = [
 ]
 queryBuilder = false
