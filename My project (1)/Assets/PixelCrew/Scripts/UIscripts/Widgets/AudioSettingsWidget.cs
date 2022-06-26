@@ -13,7 +13,7 @@ namespace PixelCrew.Scripts.UIscripts.Widgets
 
         private FloatPersistentProperty _model;
 
-        private CompositeDisposable _trash = new CompositeDisposable();
+        private readonly CompositeDisposable _trash = new CompositeDisposable();
 
         private void Start()
         {
