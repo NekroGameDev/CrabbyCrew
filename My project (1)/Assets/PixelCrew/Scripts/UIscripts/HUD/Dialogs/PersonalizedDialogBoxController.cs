@@ -16,6 +16,7 @@ namespace Assets.PixelCrew.Scripts.UIscripts.HUD.Dialogs
         {
             _right.gameObject.SetActive(CurrentSentence.Side == Side.Right);
             _content.gameObject.SetActive(CurrentSentence.Side == Side.Left);
+            
 
             base.OnStartDialogAnimation();
         }
