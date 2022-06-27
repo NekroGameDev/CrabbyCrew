@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &687473908370229230
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4723516755798774121, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_Name
+      value: CandleRefuel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516755798774127, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516755798774127, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516755798774127, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516755798774127, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516755798774127, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.176
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516755798774127, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516755798774127, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516755798774127, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516755798774127, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516755798774127, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516755798774127, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516755798774127, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516755798774127, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633357, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.369
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633394, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_Color.b
+      value: 0.09019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633394, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_Color.g
+      value: 0.1764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633394, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_Color.r
+      value: 0.58431375
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633394, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_Intensity
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633394, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_BlendStyleIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633394, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_FalloffIntensity
+      value: 0.771
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633394, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_NormalMapQuality
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633394, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_OverlapOperation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633394, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_LightVolumeIntensity
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633394, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_PointLightInnerAngle
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633394, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_PointLightOuterAngle
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633394, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_PointLightInnerRadius
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633394, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 1.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633394, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_ShadowIntensityEnabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633394, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_LightVolumeIntensityEnabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723516756590633394, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+      propertyPath: m_ShadowVolumeIntensityEnabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+--- !u!1 &5190161720734914183 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4723516755798774121, guid: e5f898485375f594d8c79b307e6a6833, type: 3}
+  m_PrefabInstance: {fileID: 687473908370229230}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &838030117
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5190161720734914183}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.11050546}
+  serializedVersion: 2
+  m_Radius: 0.4115957
+--- !u!114 &838030115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5190161720734914183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54aae80e4a4ad31449f065773909bc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tag: Player
+  _layer:
+    serializedVersion: 2
+    m_Bits: 8
+  _action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 838030116}
+        m_TargetAssemblyTypeName: Assets.PixelCrew.Scripts.Components.RefillFuelComponent,
+          Assembly-CSharp
+        m_MethodName: Refill
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &838030116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5190161720734914183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c32bd4296a9404b91428ba1707f9f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
