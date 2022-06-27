@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7575260862698778153}
   - component: {fileID: 7575260862698778152}
   - component: {fileID: 7575260862698778135}
-  - component: {fileID: 7575260862698778134}
+  - component: {fileID: 388491221}
   m_Layer: 0
   m_Name: AttackRangeSeashell
   m_TagString: Untagged
@@ -57,12 +57,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7575260862698778152}
-        m_TargetAssemblyTypeName: PixelCrew.Components.ModifyHealthComponent
-        m_MethodName: 
+        m_TargetAssemblyTypeName: PixelCrew.Components.ModifyHealthComponent, Assembly-CSharp
+        m_MethodName: Apply
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -97,7 +97,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7575260862698778134
+--- !u!114 &388491221
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,14 +106,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 7575260862698778154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d8390aa8fd375448a4b9d89c8512a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 359cdc4412ba3e941926aa569e687ba4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _layer:
     serializedVersion: 2
     m_Bits: 8
   _isTouchingLayer: 0
-  _collider: {fileID: 0}
 --- !u!1 &7575260863015687486
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,8 +123,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7575260863015687487}
   - component: {fileID: 7575260863015687482}
-  - component: {fileID: 7575260863015687485}
   - component: {fileID: 7575260863015687484}
+  - component: {fileID: 1873541531}
   m_Layer: 0
   m_Name: SeashellVision
   m_TagString: Untagged
@@ -174,23 +173,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 3}
   m_EdgeRadius: 0
---- !u!114 &7575260863015687485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7575260863015687486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d8390aa8fd375448a4b9d89c8512a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _layer:
-    serializedVersion: 2
-    m_Bits: 8
-  _isTouchingLayer: 0
-  _collider: {fileID: 0}
 --- !u!114 &7575260863015687484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,6 +204,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1873541531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7575260863015687486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 359cdc4412ba3e941926aa569e687ba4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _layer:
+    serializedVersion: 2
+    m_Bits: 8
+  _isTouchingLayer: 0
 --- !u!1 &7575260863055950213
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +366,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7575260863391525473}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.21, y: 3.26, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -546,7 +544,6 @@ MonoBehaviour:
   _onChange:
     m_PersistentCalls:
       m_Calls: []
-  _immune: 0
 --- !u!114 &7575260863391525481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -575,6 +572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 7575260863391525484}
   _prefab: {fileID: 2187263071326791361, guid: f89c009f11260754d98f78747bdf07ef, type: 3}
+  _usePool: 0
 --- !u!114 &7575260863391525462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -587,9 +585,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40d4c2b38eb94d44da2fcb4056385c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _vision: {fileID: 7575260863015687485}
+  _vision: {fileID: 1873541531}
   _meeleAttack: {fileID: 7575260862698778153}
-  _meleeCanAttack: {fileID: 7575260862698778134}
+  _meleeCanAttack: {fileID: 388491221}
   _meleeCooldown:
     _value: 1
   _rangeAttack: {fileID: 1248593894532548366}
