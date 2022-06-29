@@ -743,6 +743,7 @@ GameObject:
   - component: {fileID: 4666972073427276128}
   - component: {fileID: 6998569983647880050}
   - component: {fileID: 7843930593754695637}
+  - component: {fileID: 6872250991160799856}
   m_Layer: 13
   m_Name: PriceLabel
   m_TagString: Untagged
@@ -812,6 +813,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Price:'
+--- !u!114 &6872250991160799856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4101662630703034407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8625bef7b7653042a8077a0f841410f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: Price
+  _capitalize: 0
 --- !u!1 &4159343174123755085
 GameObject:
   m_ObjectHideFlags: 0
@@ -1715,8 +1730,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 34.648, y: -7.200012}
-  m_SizeDelta: {x: 28.9837, y: 10}
+  m_AnchoredPosition: {x: 40.25, y: -7.200012}
+  m_SizeDelta: {x: 40.187, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1324623257390487734
 CanvasRenderer:
@@ -2094,11 +2109,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c28dc261ae6d90478f93133d0534ed2, type: 3}
+--- !u!1 &1358694695155148203 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7986742250934371079, guid: 6c28dc261ae6d90478f93133d0534ed2, type: 3}
+  m_PrefabInstance: {fileID: 8938966185691719340}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1850516347389587331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358694695155148203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8625bef7b7653042a8077a0f841410f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: Upgrade
+  _capitalize: 0
 --- !u!224 &1502867455941733888 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7554462505184315564, guid: 6c28dc261ae6d90478f93133d0534ed2, type: 3}
   m_PrefabInstance: {fileID: 8938966185691719340}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1514253091357063251 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7570026830686445311, guid: 6c28dc261ae6d90478f93133d0534ed2, type: 3}
+  m_PrefabInstance: {fileID: 8938966185691719340}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3679108832975799201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514253091357063251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8625bef7b7653042a8077a0f841410f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: Upgrade
+  _capitalize: 0
 --- !u!114 &5733476688874822568 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3719112139542101252, guid: 6c28dc261ae6d90478f93133d0534ed2, type: 3}

@@ -3794,6 +3794,17 @@ Transform:
   m_Father: {fileID: 604349003}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1394082269 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7796440678759540777, guid: 6c7a8a3b4562e7a48aec02114b410e76, type: 3}
+  m_PrefabInstance: {fileID: 8520362294440473589}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adbfd6a2e7d5022459650c584b8e78d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1429268286 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 540709120669153639, guid: 0f86b00b409ad9141b6e9b729cd56357, type: 3}
@@ -24507,11 +24518,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2404271145936759031, guid: 18ab06fa546519046af706de6314d1c0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.972
+      value: -3.18
       objectReference: {fileID: 0}
     - target: {fileID: 2404271145936759031, guid: 18ab06fa546519046af706de6314d1c0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.903
+      value: -2.86
       objectReference: {fileID: 0}
     - target: {fileID: 2404271145936759031, guid: 18ab06fa546519046af706de6314d1c0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26532,13 +26543,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crabby-crew_ManagePerksWindow
       objectReference: {fileID: 0}
+    - target: {fileID: 5962955770033157040, guid: 6c7a8a3b4562e7a48aec02114b410e76, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1394082269}
+    - target: {fileID: 5962955770033157040, guid: 6c7a8a3b4562e7a48aec02114b410e76, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DestroyObject
+      objectReference: {fileID: 0}
     - target: {fileID: 5962955770033157042, guid: 6c7a8a3b4562e7a48aec02114b410e76, type: 3}
       propertyPath: _onComplete.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 375099793}
+    - target: {fileID: 5962955770033157042, guid: 6c7a8a3b4562e7a48aec02114b410e76, type: 3}
+      propertyPath: _onComplete.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Switch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962955770033157042, guid: 6c7a8a3b4562e7a48aec02114b410e76, type: 3}
+      propertyPath: _onComplete.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PixelCrew.Components.SwitchComponent, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 5962955770033157044, guid: 6c7a8a3b4562e7a48aec02114b410e76, type: 3}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962955770033157044, guid: 6c7a8a3b4562e7a48aec02114b410e76, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5962955770033157044, guid: 6c7a8a3b4562e7a48aec02114b410e76, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26768,6 +26799,14 @@ PrefabInstance:
     - target: {fileID: 9096807494225079639, guid: ac35d62394873cb47b3fadad0e6170de, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096807494635980383, guid: ac35d62394873cb47b3fadad0e6170de, type: 3}
+      propertyPath: _bound._sentences.Array.data[0]._valued
+      value: PatricBossStart
+      objectReference: {fileID: 0}
+    - target: {fileID: 9096807494635980383, guid: ac35d62394873cb47b3fadad0e6170de, type: 3}
+      propertyPath: _bound._sentences.Array.data[1]._valued
+      value: PatricBossHero
       objectReference: {fileID: 0}
     - target: {fileID: 9096807494635980383, guid: ac35d62394873cb47b3fadad0e6170de, type: 3}
       propertyPath: _onComplete.m_PersistentCalls.m_Calls.Array.data[1].m_Target

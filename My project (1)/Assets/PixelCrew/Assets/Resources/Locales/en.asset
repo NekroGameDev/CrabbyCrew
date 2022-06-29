@@ -64,4 +64,16 @@ MonoBehaviour:
   - Key: Let's go
     Value: "Let's go!\r"
   - Key: Super-throw-use
-    Value: To use the super throw, hold down the "RMB"
+    Value: "To use the super throw, hold down the \"RMB\"\r"
+  - Key: PatricBossStart
+    Value: "I'll kill you!\r"
+  - Key: PatricBossHero
+    Value: "Let's check it out\r"
+  - Key: Health
+    Value: "Health:\r"
+  - Key: Speed
+    Value: "Speed:\r"
+  - Key: Range Damage
+    Value: "Range Damage:\r"
+  - Key: Critical Damage
+    Value: 'Critical Damage:'
