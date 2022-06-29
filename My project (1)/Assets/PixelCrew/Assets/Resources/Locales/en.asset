@@ -38,7 +38,7 @@ MonoBehaviour:
     Value: "Use \"Z\" to attack\r"
   - Key: Shield
     Value: "Shield-when the skill is activated, it gives the character invulnerability
-      to any kind of damage for 5 seconds!\r"
+      to any kind of damage for 5 seconds! (To activate the skill, press \"R\")\r"
   - Key: Double-jump
     Value: "Double Jump - When activated, gives the player the opportunity to make
       a double jump!\r"
@@ -62,4 +62,6 @@ MonoBehaviour:
   - Key: Good
     Value: "Good\r"
   - Key: Let's go
-    Value: Let's go!
+    Value: "Let's go!\r"
+  - Key: Super-throw-use
+    Value: To use the super throw, hold down the "RMB"
