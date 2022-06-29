@@ -490,7 +490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _layer:
     serializedVersion: 2
-    m_Bits: 576
+    m_Bits: 1600
   _isTouchingLayer: 0
   _target: {fileID: 393984527}
 --- !u!1 &421426387346747452

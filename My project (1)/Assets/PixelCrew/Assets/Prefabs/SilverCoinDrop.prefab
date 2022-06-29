@@ -293,7 +293,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2885643688908368411, guid: 8bae31de007721d41868b0cadb050362, type: 3}
       propertyPath: m_Name
-      value: SilverCoinDrop (1)
+      value: SilverCoinDrop
+      objectReference: {fileID: 0}
+    - target: {fileID: 5069523737961859099, guid: 8bae31de007721d41868b0cadb050362, type: 3}
+      propertyPath: _id
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2885643688908368404, guid: 8bae31de007721d41868b0cadb050362, type: 3}

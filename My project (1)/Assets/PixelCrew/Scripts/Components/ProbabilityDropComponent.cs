@@ -29,7 +29,7 @@ namespace PixelCrew.Components
             var itemsToDrop = new GameObject[_count];
             var itemCount = 0;
             var total = _drop.Sum(DropData => DropData.Probability);
-            var sortedDrop = _drop.OrderBy(DropData => DropData.Probability);
+            var sortedDrop = _drop.OrderBy(DropData => DropData.Probability).ToArray(); ;
 
             while (itemCount < _count)
             {
