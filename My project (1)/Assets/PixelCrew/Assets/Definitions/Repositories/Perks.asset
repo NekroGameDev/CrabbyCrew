@@ -19,14 +19,14 @@ MonoBehaviour:
     _price:
       _itemId: GreenGem
       _count: 20
-    _cooldown: 5
+    _cooldown: 0
   - _id: super-throw
     _icon: {fileID: 21300000, guid: a15a181d5312dd84394ac907053c12c3, type: 3}
     _info: superThrow
     _price:
       _itemId: GreenGem
       _count: 10
-    _cooldown: 5
+    _cooldown: 0
   - _id: shield
     _icon: {fileID: 21300000, guid: 2b4acf307911dd94eab918a944bfed57, type: 3}
     _info: shield

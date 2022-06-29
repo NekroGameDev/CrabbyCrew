@@ -37,8 +37,8 @@ namespace Assets.PixelCrew.Scripts.Model
 
         public string Used => _data.Perks.Used.Value;
 
-        public bool IsSuperThrowSupported => _data.Perks.Used.Value == "super-throw" && Cooldown.IsReady;
-        public bool IsDoubleJumpSupported => _data.Perks.Used.Value == "double-jump" && Cooldown.IsReady;
+        public bool IsSuperThrowSupported => _data.Perks.Used.Value == "super-throw";
+        public bool IsDoubleJumpSupported => _data.Perks.Used.Value == "double-jump";
 
         public bool IsShieldSupported => _data.Perks.Used.Value == "shield" && Cooldown.IsReady;
 
