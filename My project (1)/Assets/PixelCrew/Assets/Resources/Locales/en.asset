@@ -27,4 +27,39 @@ MonoBehaviour:
   - Key: button_back
     Value: "back\r"
   - Key: button_locales
-    Value: languages
+    Value: "languages\r"
+  - Key: Hello
+    Value: "Hello and welcome to this world!\r"
+  - Key: Move
+    Value: "To move, use \"A and D\"\r"
+  - Key: Jump
+    Value: "Use \"SPACE\" to jump\r"
+  - Key: Attack
+    Value: "Use \"Z\" to attack\r"
+  - Key: Shield
+    Value: "Shield-when the skill is activated, it gives the character invulnerability
+      to any kind of damage for 5 seconds!\r"
+  - Key: Double-jump
+    Value: "Double Jump - When activated, gives the player the opportunity to make
+      a double jump!\r"
+  - Key: Super-throw
+    Value: "Super Throw - when the skill is activated, it gives the player the opportunity
+      to throw 3 swords in a row!\r"
+  - Key: Price
+    Value: "Price:\r"
+  - Key: button_use
+    Value: "USE\r"
+  - Key: button_buy
+    Value: "BUY\r"
+  - Key: continue
+    Value: "Continue...\r"
+  - Key: Skill
+    Value: "To use the selected skill, press \"R\".\r"
+  - Key: NextSword
+    Value: "To go further you need a sword.\r"
+  - Key: TeachYou
+    Value: "I can teach you!\r"
+  - Key: Good
+    Value: "Good\r"
+  - Key: Let's go
+    Value: Let's go!
