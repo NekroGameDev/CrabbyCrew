@@ -76,4 +76,8 @@ MonoBehaviour:
   - Key: Range Damage
     Value: "Range Damage:\r"
   - Key: Critical Damage
-    Value: 'Critical Damage:'
+    Value: "Critical Damage:\r"
+  - Key: PatricBossEnd
+    Value: "Nooooooo!\r"
+  - Key: PatricBossHeroEnd
+    Value: EZPZ!
