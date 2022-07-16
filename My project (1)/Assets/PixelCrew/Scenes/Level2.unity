@@ -1912,6 +1912,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 110399593, guid: b20efbfb0f6ced7449211dc62f5ebb2e, type: 3}
+      propertyPath: _layer.m_Bits
+      value: 192
+      objectReference: {fileID: 0}
     - target: {fileID: 8103116665651868040, guid: b20efbfb0f6ced7449211dc62f5ebb2e, type: 3}
       propertyPath: m_RootOrder
       value: 3
